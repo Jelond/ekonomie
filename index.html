@@ -432,7 +432,7 @@ display: inline-block;
 
 
 <div class="bigcontainer">
-<img src="leonskibitzki.jpg"/>
+<img src="robsonmorgan.jpg"/>
 <div   title="Zadej český překlad. Pokud nevíš odpověď, klikni na text »Tajenka«.
 Задайте ческий переклад .Якщо незнаеш відповідь нажміть на текст »Tajenka«." class="container">
 <h1 title="Zdroj: https://cs.wikipedia.org/wiki/Agreg%C3%A1tn%C3%AD_nab%C3%ADdka">1. ... v makroekonomii znamená celkovou nabídku zboží a služeb v národní ekonomice v určitém časovém období.</h1>
@@ -735,23 +735,23 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1>31. допомо́га </h1>
+<h1 title="Zdroj: http://gymnazium1.milevsko.cz/dokumenty/ekf2/inf/inflace.html">31. Podle výše rozlišujeme inflaci ... </h1>
 <hr/>
 <input class="display" id="text31" placeholder="answer">
 <br/>
 <button onclick="fn31()" id = "btn31">Klikni</button>
 <button id="cudlik31" style="display:none" onclick="next(31)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='pomoc'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='mírnou, pádivou a hyperinflaci'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>32. жи́ти </h1>
+<h1 title="Zdroj: http://gymnazium1.milevsko.cz/dokumenty/ekf2/inf/inflace.html">32. Podle příčin rozlišujeme inflaci ... </h1>
 <hr/>
 <input class="display" id="text32" placeholder="answer">
 <br/>
 <button onclick="fn32()" id = "btn32">Klikni</button>
 <button id="cudlik32" style="display:none" onclick="next(32)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='žít'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='poptávkovou, nabídkovou, setrvačnou'">Tajenka</p>
 </div>
 
 <div class="container">
@@ -1693,7 +1693,7 @@ document.getElementById('zvuk30').play(); return false;
 
 function fn31()
 {
-if (document.getElementById("text31").value == "pomoc") {
+if (document.getElementById("text31").value == "mírnou, pádivou a hyperinflaci") {
 document.getElementById('cudlik31').style.display = "inline";
 document.getElementById('zvuk31').play(); return false;
 }
@@ -1701,7 +1701,7 @@ document.getElementById('zvuk31').play(); return false;
 
 function fn32()
 {
-if (document.getElementById("text32").value == "žít") {
+if (document.getElementById("text32").value == "poptávkovou, nabídkovou a setrvačnou") {
 document.getElementById('cudlik32').style.display = "inline";
 document.getElementById('zvuk32').play(); return false;
 }
