@@ -29,14 +29,11 @@ position: absolute;
 border: 3px solid black;
 border-radius: 10px;
 width: 90%;
-height: 90%;
 padding: 20px;
 display: none;
 box-shadow: 0px 0px 10px 1px yellow;
-margin-top: 1em;
-margin-left: 1em;
-top: 50%;
-transform: translate(0,-50%);
+margin-top: 2em;
+margin-left: 0.5em;
 }
 
 button {
@@ -74,9 +71,9 @@ margin: 10px 0px;
 }
 
 .tajenka {
-font-size: 6vh;
+font-size: 5vh;
 display: block;
-line-height: 10%;
+line-height: 100%;
 }
 
 .parent 
@@ -275,53 +272,53 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1>15. говори́ть </h1>
+<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">15. Míra nezaměstnanosti je ... </h1>
 <hr/>
 <input class="display" id="text15" placeholder="answer">
 <br/>
 <button onclick="fn15()" id = "btn15">Klikni</button>
 <button id="cudlik15" style="display:none" onclick="next(15)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='hovořit, mluvit'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='procento nezaměstnaných z ekonomicky aktivního obyvatelstva'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>16. або́ </h1>
+<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">16. Míra nezaměstnanosti je procento nezaměstnaných z ekonomicky ... </h1>
 <hr/>
 <input class="display" id="text16" placeholder="answer">
 <br/>
 <button onclick="fn16()" id = "btn16">Klikni</button>
 <button id="cudlik16" style="display:none" onclick="next(16)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='nebo'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='aktivního obyvatelstva'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>17. вели́кий </h1>
+<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">17. Míra nezaměstnanosti je procento nezaměstnaných ... aktivního obyvatelstva  </h1>
 <hr/>
 <input class="display" id="text17" placeholder="answer">
 <br/>
 <button onclick="fn17()" id = "btn17">Klikni</button>
 <button id="cudlik17" style="display:none" onclick="next(17)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='velký'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='z ekonomicky'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>18. дру́гий </h1>
+<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">18. Strukturální nezaměstnanost vzniká z důvodu...  </h1>
 <hr/>
 <input class="display" id="text18" placeholder="answer">
 <br/>
 <button onclick="fn18()" id = "btn18">Klikni</button>
 <button id="cudlik18" style="display:none" onclick="next(18)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='druhý'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='strukturálních změn v ekonomice'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>19. де </h1>
+<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">19. Cyklická nezaměstnanost zasahuje ... </h1>
 <hr/>
 <input class="display" id="text19" placeholder="answer">
 <br/>
 <button onclick="fn19()" id = "btn19">Klikni</button>
 <button id="cudlik19" style="display:none" onclick="next(19)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='kde'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='všechna odvětví v ekonomice'">Tajenka</p>
 </div>
 
 <div class="container">
@@ -1259,7 +1256,7 @@ document.getElementById('zvuk14').play(); return false;
 
 function fn15()
 {
-if (document.getElementById("text15").value == "hovořit, mluvit") {
+if (document.getElementById("text15").value == "procento nezaměstnaných z ekonomicky aktivního obyvatelstva") {
 document.getElementById('cudlik15').style.display = "inline";
 document.getElementById('zvuk15').play(); return false;
 }
@@ -1268,7 +1265,7 @@ document.getElementById('zvuk15').play(); return false;
 
 function fn16()
 {
-if (document.getElementById("text16").value == "nebo") {
+if (document.getElementById("text16").value == "aktivního obyvatelstva") {
 document.getElementById('cudlik16').style.display = "inline";
 document.getElementById('zvuk16').play(); return false;
 }
@@ -1277,7 +1274,7 @@ document.getElementById('zvuk16').play(); return false;
 
 function fn17()
 {
-if (document.getElementById("text17").value == "velký") {
+if (document.getElementById("text17").value == "z ekonomicky") {
 document.getElementById('cudlik17').style.display = "inline";
 document.getElementById('zvuk17').play(); return false;
 }
@@ -1286,7 +1283,7 @@ document.getElementById('zvuk17').play(); return false;
 
 function fn18()
 {
-if (document.getElementById("text18").value == "druhý") {
+if (document.getElementById("text18").value == "strukturálních změn v ekonomice") {
 document.getElementById('cudlik18').style.display = "inline";
 document.getElementById('zvuk18').play(); return false;
 }
@@ -1294,7 +1291,7 @@ document.getElementById('zvuk18').play(); return false;
 
 function fn19()
 {
-if (document.getElementById("text19").value == "kde") {
+if (document.getElementById("text19").value == "všechna odvětví v ekonomice") {
 document.getElementById('cudlik19').style.display = "inline";
 document.getElementById('zvuk19').play(); return false;
 }
