@@ -985,53 +985,53 @@ display: inline-block;
 
 
 <div class="container">
-<h1>56. пи́во </h1>
+<h1>56. Hrubý domácí produkt je ... </h1>
 <hr/>
 <input class="display" id="text56" placeholder="answer">
 <br/>
 <button onclick="fn56()" id = "btn56">Klikni</button>
 <button id="cudlik56" style="display:none" onclick="next(56)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='pivo'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='souhrn v penězích vyjádřeného množství'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>57. Скі́льки це ко́штує? </h1>
+<h1>57. Hrubý domácí produkt je souhrn v penězích vyjádřeného množství ... </h1>
 <hr/>
 <input class="display" id="text57" placeholder="answer">
 <br/>
 <button onclick="fn57()" id = "btn57">Klikni</button>
 <button id="cudlik57" style="display:none" onclick="next(57)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Kolik to stojí?'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='veškeré finální produkce'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>58. Скі́льки це ко́штує на добу́? </h1>
+<h1>58. Hrubý domácí produkt je souhrn v penězích vyjádřeného množství veškeré finální produkce ... </h1>
 <hr/>
 <input class="display" id="text58" placeholder="answer">
 <br/>
 <button onclick="fn58()" id = "btn58">Klikni</button>
 <button id="cudlik58" style="display:none" onclick="next(58)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Kolik to stojí na den?'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='zboží a služeb'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>59. ка́ва </h1>
+<h1>59. Hrubý domácí produkt je souhrn v penězích vyjádřeného množství veškeré finální produkce zboží a služeb ... </h1>
 <hr/>
 <input class="display" id="text59" placeholder="answer">
 <br/>
 <button onclick="fn59()" id = "btn59">Klikni</button>
 <button id="cudlik59" style="display:none" onclick="next(59)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='káva'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='vyrobené během jednoho roku'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>60. готе́ль </h1>
+<h1>60. Hrubý domácí produkt je souhrn v penězích vyjádřeného množství veškeré finální produkce zboží a služeb vyrobené během jednoho roku ... </h1>
 <hr/>
 <input class="display" id="text60" placeholder="answer">
 <br/>
 <button onclick="fn60()" id = "btn60">Klikni</button>
 <button id="cudlik60" style="display:none" onclick="next(60)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='hotel'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='na daném území'">Tajenka</p>
 </div>
 
 <div class="container">
@@ -1901,7 +1901,7 @@ document.getElementById('zvuk55').play(); return false;
 
 function fn56()
 {
-if (document.getElementById("text56").value == "pivo") {
+if (document.getElementById("text56").value == "souhrn v penězích vyjádřeného množství") {
 document.getElementById('cudlik56').style.display = "inline";
 document.getElementById('zvuk56').play(); return false;
 }
@@ -1909,7 +1909,7 @@ document.getElementById('zvuk56').play(); return false;
 
 function fn57()
 {
-if (document.getElementById("text57").value == "Kolik to stojí?") {
+if (document.getElementById("text57").value == "veškeré finální produkce") {
 document.getElementById('cudlik57').style.display = "inline";
 document.getElementById('zvuk57').play(); return false;
 }
@@ -1918,7 +1918,7 @@ document.getElementById('zvuk57').play(); return false;
 
 function fn58()
 {
-if (document.getElementById("text58").value == "Kolik to stojí na den?") {
+if (document.getElementById("text58").value == "zboží a služeb") {
 document.getElementById('cudlik58').style.display = "inline";
 document.getElementById('zvuk58').play(); return false;
 }
@@ -1926,7 +1926,7 @@ document.getElementById('zvuk58').play(); return false;
 
 function fn59()
 {
-if (document.getElementById("text59").value == "káva") {
+if (document.getElementById("text59").value == "vyrobené během jednoho roku") {
 document.getElementById('cudlik59').style.display = "inline";
 document.getElementById('zvuk59').play(); return false;
 }
@@ -1934,7 +1934,7 @@ document.getElementById('zvuk59').play(); return false;
 
 function fn60()
 {
-if (document.getElementById("text60").value == "hotel") {
+if (document.getElementById("text60").value == "na daném území") {
 document.getElementById('cudlik60').style.display = "inline";
 document.getElementById('zvuk60').play(); return false;
 }
